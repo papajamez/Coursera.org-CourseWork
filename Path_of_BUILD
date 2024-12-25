@@ -1,0 +1,72 @@
+James_Antonio_B_REPOSITORY_PATH
+
+### 1. **LICENSE
+```plaintext
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+```
+
+### 2. **README.md**
+```markdown
+# Project Title
+
+## Description
+This GitHub repository is for classmates to view my work.
+
+## Installation
+Instructions on how to install: 
+1. Click on "New Repository" (upper right-hand side).
+
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+```
+
+### 3. **CODE_OF_CONDUCT.md**
+```markdown
+# Contributor Covenant Code of Conduct
+
+## Our Pledge
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone.
+
+## Our Standards
+Examples of behavior that contributes to creating a positive environment include:
+- Being respectful of differing viewpoints and experiences.
+- Gracefully accepting constructive criticism.
+
+## Enforcement
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team.
+```
+
+### 4. **CONTRIBUTING.md**
+```markdown
+# Contributing to My Project
+
+I welcome contributions to my project!
+
+## How to Contribute
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Commit your changes.
+5. Push to the branch.
+6. Open a pull request.
+
+## Code of Conduct
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+```
+
+### 5. **simple-interest.sh**
+```bash
+#!/bin/bash
+
+# Simple Interest Calculator
+# Usage: ./simple-interest.sh principal rate time
+
+principal=$1
+rate=$2
+time=$3
+
+simple_interest=$(echo "scale=2; $principal * $rate * $time / 100" | bc)
+echo "The simple interest is: $simple_interest"
+
